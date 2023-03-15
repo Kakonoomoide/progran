@@ -14,14 +14,6 @@ string status (double r){
     }
 }
 
-string status2 (double r, double n){
-    if (r >= 60 && n >= 70){
-        return "lulus";
-    }
-    else{
-        return "lulus";
-    }
-}
 
 string status3 (double r, double n){
     if (r >= 60 || n >= 70){
@@ -42,7 +34,6 @@ int main (){
 
     cout << "nilai test nya adalah " << rerata (nilaiMath, nilaiBahasa);
     cout << "\nhasil test nya adalah " << status (rerata (nilaiMath, nilaiBahasa));
-    cout << "\nhasil test nya adalah " << status2 (rerata(nilaiMath, nilaiBahasa), nilaiMath);
     cout << "\nhasil test nya adalah " << status3 (rerata(nilaiMath, nilaiBahasa), nilaiMath);
 
 }
